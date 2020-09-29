@@ -4,7 +4,13 @@
 	<title>Learn Enough JavaScript</title>
 	<meta charset="utf-8">
 	<script type="text/javascript">
-		alert("hello, world!")
+		const daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Thursday", "Friday", "Saturday"];
+		let now = new Date();
+		let dayName = daysOfTheWeek[now.getDay()];
+		let firstName = "Yoko"
+		let lastName = "Kasai"
+		alert(`hello, world! Happy ${dayName}.`);
+		console.log(`${firstName} ${lastName}`)
 	</script>
 </head>
 <body>
